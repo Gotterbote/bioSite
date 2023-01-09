@@ -1,0 +1,68 @@
+/*      Developer: Timmy Bell
+      Creation Date: 01/08/2023
+              Class: CSD-340
+         Assignment: Module 4.3 Assignment */
+
+         h1 {
+            font-family: "Oswald", Verdana, Arial, sans-serif;
+            text-align: center;
+         }
+         
+         h3 {
+            font-weight: 500;
+         }
+         .content {
+            overflow: auto;
+         }
+         .left-div, .right-div {
+            width: 45%;
+         }
+
+         .left-div {
+            float: left;
+            font-family: "Oswald", Verdana, Arial, sans-serif;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding: 10px;
+         }
+
+         .right-div {
+            float: right;
+            font-family: "Oswald", Verdana, Arial, sans-serif;
+            border: 1px dashed red;
+            border-radius: 15px;
+            padding: 10px;
+         }
+
+         ol {
+            padding: 10px;
+            list-style-position: inside;
+         }
+
+         li {
+            font-weight: 300;
+         }
+
+         ul {
+            padding: 10px;
+            list-style: upper-roman;
+            list-style-position: inside;
+         }
+
+         .last {
+            width: 100%;
+            margin-top: 60%;
+            float: right;
+            margin-bottom: 20px;
+            text-align: right;
+         } 
+        
+         a {
+            font-family: "Oswald", Verdana, Arial, sans-serif;
+            text-decoration: none;
+         }
+
+         a:hover {
+            text-decoration: underline;
+         }
+
