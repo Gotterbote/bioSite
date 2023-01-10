@@ -16,6 +16,7 @@
          }
          .left-div, .right-div {
             width: 45%;
+            padding: 10px;
          }
 
          .left-div {
@@ -23,7 +24,7 @@
             font-family: "Oswald", Verdana, Arial, sans-serif;
             border: 1px solid red;
             border-radius: 15px;
-            padding: 10px;
+            
          }
 
          .right-div {
@@ -31,7 +32,7 @@
             font-family: "Oswald", Verdana, Arial, sans-serif;
             border: 1px dashed red;
             border-radius: 15px;
-            padding: 10px;
+            
          }
 
          ol {
@@ -52,14 +53,20 @@
          .last {
             width: 100%;
             margin-top: 60%;
-            float: right;
             margin-bottom: 20px;
-            text-align: right;
          } 
         
          a {
             font-family: "Oswald", Verdana, Arial, sans-serif;
             text-decoration: none;
+         }
+
+         .last a:first-of-type {
+            font-size: x-large;
+         }
+
+         .last a:last-of-type {
+            float: right;
          }
 
          a:hover {
