@@ -35,9 +35,7 @@
         }
         
         #container {
-            margin-top: 2%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin: 2% 5% 100px 5%;
             padding: 10px;
         }
 
@@ -62,25 +60,45 @@
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
+        #movies table {
+            width:100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        #movies th {
+            background-color: #3c275a;
+            color: #fff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+        }
+
+        #movies td{
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
         footer {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             width: 100%;          
             background-color: #3c275a;
-            
+            left: 0;
          }
 
          footer p {
             color: #fff;
             font-weight: 400;
-            float: right;
             padding-right: 10px;
             font-style: italic;
+            text-align: left;
          }
 
          footer a{
             color: #fff;
             text-decoration: none;
+            float: right;
          }
          footer a:hover {
             text-decoration: underline;
