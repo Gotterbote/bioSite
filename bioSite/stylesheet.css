@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    margin-bottom: 10%;
+}
+.background {
+    width: 50vw;
+    height: 50vh;
+    z-index: 0;
+    border-radius: 25%;
+
+}
+@font-face {
+    font-family: "Georgia Bulldog";
+    src: url('/fonts/ncaa_georgia_bulldog_bold-webfont.woff2') format('woff2'),
+         url('/fonts/ncaa_georgia_bulldog_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3{
+    font-family: "Georgia Bulldog";
+    color: #e60e0e;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+    
+}
+
+h4 {
+    color:#ffffff;
+}
+
+.navLinks {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.portrait {
+    display: block;
+    margin: auto;    
+}
+
+footer {
+    background-color: #e60e0e;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap:wrap;
+
+    grid-template-columns: auto auto auto auto;
+}
+.gallery img {
+    width:450px;
+    height:350px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: auto;
+    overflow: auto;
+}
+
+.right {
+    float: right;
+    transform: rotatez(45deg);
+    margin-right: 3%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    transform: rotatez(-45deg);
+    margin-left: 3%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+a {
+    padding: 15px;
+}
