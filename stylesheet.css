@@ -141,7 +141,7 @@ a:hover {
 
     .right img{
         transform: rotateZ(45deg);
-        width: 100%vh;
+        width: 100vw;
 
     }
 
@@ -155,7 +155,7 @@ a:hover {
     
 
     .left img{
-        width: 100%vh;
+        width: 100vw;
         transform: rotateZ(-45deg);
     }
 
