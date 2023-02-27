@@ -125,7 +125,7 @@ a:hover {
         justify-content: center;
         overflow: visible;
         width: 100%;
-        padding: 0%;
+        padding: 10% 0% 0% 0%;
     }
 
     .left {
@@ -136,11 +136,13 @@ a:hover {
         overflow: visible;
         justify-content: center;
         width: 100%;
-        padding: 0%
+        padding: 0%;
     }
 
     .right img{
         transform: rotateZ(45deg);
+        width: 100%vh;
+
     }
 
     .left h2 {
@@ -153,8 +155,7 @@ a:hover {
     
 
     .left img{
-        overflow: hidden;
-        position: center;
+        width: 100%vh;
         transform: rotateZ(-45deg);
     }
 
