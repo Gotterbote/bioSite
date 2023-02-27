@@ -165,4 +165,8 @@ a:hover {
         position: relative;
     }
 
+    .portrait img{
+        width: 100vw;
+    }
+
 }
