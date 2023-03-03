@@ -116,10 +116,15 @@ a:hover {
     color:#e60e0e;
 }
 
+span{
+    font-family: 'Times New Roman', Times, serif;
+    color: #e60e0e;
+    font-size: 14px;
+}
+
 
 @media only screen and (max-width: 1340px) {
     .right {
-        display: center;
         margin-left: auto;
         z-index: 1;
         transform: rotateZ(-45deg);
@@ -130,7 +135,6 @@ a:hover {
     }
 
     .left {
-        display: center;
         margin:auto;
         transform: rotateZ(45deg);
         align-content: center;
